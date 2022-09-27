@@ -1,4 +1,9 @@
 # cunningham-noah-csci466
+
+---Demo Video---
+
+https://montana.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ec4ec1b4-7f5d-46e2-96cc-af1d003c7488#
+
 ---How To Run---
 
 Step 1: Open 3 terminals
@@ -9,7 +14,4 @@ Step 3: Go into the the other terminals and type "python client.py port_number u
 
 Step 4: You will then be promted to enter inputs for the clinets and once inputs are entered you will get a result. 
 
----Demo Video---
-
-https://montana.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ec4ec1b4-7f5d-46e2-96cc-af1d003c7488#
 
