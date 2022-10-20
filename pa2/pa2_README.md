@@ -18,3 +18,5 @@ will send the input to the server at which point the server will translate the
 message to 'pirate talk', and sent the translated message back to the client.
 
 See pirate.csv for translations
+
+Video Link: https://montana.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2cd8fdb4-9be7-4a34-b03c-af34004df795

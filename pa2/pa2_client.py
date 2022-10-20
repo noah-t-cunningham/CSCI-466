@@ -32,14 +32,6 @@ last_pack = packet.Packet(-1,-1,-1,-1,'', 1)
 outgoing_packet_list.append(last_pack)
 
 # send packets
-
-# for i in packet_list:
-#     data = pickle.dumps(i)
-#     clientSocket.send(data)
-#     print("Sending Packet" + str(i.get_sequence()) + " " + i.get_message())
-#     ack_nak_data = clientSocket.recv(1024)
-#     ack_nak = pickle.loads(ack_nak_data)
-
 i = 0
 while(i < len(outgoing_packet_list)):
     outgoing_packet_list[i].set_corruption(0)
@@ -88,28 +80,4 @@ for i in incoming_pack_list:
 print("Translated Message: ", full_message)
 print("")
 print("client done")
-
-
-# send segemnted message, and the length of it
-# i = 0
-# for segment in segmented_sentence:
-#     i = i+1
-#
-# clientSocket.send(str(i).encode())
-#
-# for segment in segmented_sentence:
-#     clientSocket.send(segment.encode())
-#
-# recieved_input = clientSocket.recv(1024).decode()
-# print(recieved_input)
-
-# while sentence not in choices:
-#     print("404 Error")
-#     sentence = input("rock, paper, scissors: ")
-#     sentence = sentence.lower()
-# print("200 Ok")
-# print(sentence)
-# clientSocket.send(sentence.encode())
-# response = clientSocket.recv(1024).decode()
-# print("Response from server: ",response)
 
