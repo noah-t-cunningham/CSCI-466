@@ -2,6 +2,9 @@
 
 ## To Run 
 
+This program will run indefinitely so use ctrl+c
+on all terminals to stop
+
 Go to pa4 folder
 
 Open 2 or more terminals
